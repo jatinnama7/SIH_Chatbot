@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Goodbye! It was nice talking to you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "That helps a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "No problem, happy to assist!"
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "Can you help me choose a career?",
+        "I need career guidance",
+        "What career is best for me?",
+        "Suggest me a career path"
+      ],
+      "responses": [
+        "Sure, I can help with that. Tell me about your interests and skills.",
+        "Let's explore some career options based on your strengths and preferences.",
+        "Career choice depends on various factors. What subjects do you enjoy the most?"
+      ]
+    },
+    {
+      "tag": "college_advice",
+      "patterns": [
+        "Which college should I attend?",
+        "Can you suggest some good colleges?",
+        "What are the top colleges for engineering?",
+        "Which is the best college for arts?"
+      ],
+      "responses": [
+        "The best college depends on your chosen field and location. Would you like some specific recommendations?",
+        "I can suggest colleges based on your preferred course. Can you specify your field of interest?",
+        "Many great colleges are available; let's narrow down based on your preferences and scores."
+      ]
+    },
+    {
+      "tag": "exam_tips",
+      "patterns": [
+        "How to prepare for exams?",
+        "Any tips for scoring well in exams?",
+        "What should I focus on while studying?",
+        "How to manage time during exams?"
+      ],
+      "responses": [
+        "Effective study involves time management, regular practice, and revision. Focus on key concepts and previous papers.",
+        "Stay organized, create a study plan, and take regular breaks to avoid burnout.",
+        "Practice past papers, prioritize weak areas, and maintain a healthy study routine."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel demotivated",
+        "I am not able to concentrate",
+        "How to stay motivated?",
+        "I am feeling stressed about my future"
+      ],
+      "responses": [
+        "It's okay to feel this way. Focus on your goals, take breaks, and keep a positive mindset.",
+        "Stay calm and take things one step at a time. Set small, achievable goals to stay motivated.",
+        "You are doing great! Remember, every small effort counts toward your big dreams."
+      ]
+    }
+  ]
+}
