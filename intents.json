@@ -3,44 +3,62 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
         "Hello",
+        "Hi",
         "Hey",
         "Good morning",
-        "Good evening"
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "Howdy"
       ],
       "responses": [
-        "Hello! How can I assist you today?",
-        "Hi there! How can I help you?",
-        "Greetings! What can I do for you?"
+        "Hello! How can I assist you with career counseling today?",
+        "Hi there! What career guidance can I provide for you?",
+        "Hey! How can I help you with your career choices?",
+        "Good day! How can I assist with career planning?",
+        "Greetings! What would you like to know about career options?",
+        "Hello! How can I help you with your career aspirations?"
       ]
     },
     {
       "tag": "goodbye",
       "patterns": [
-        "Bye",
-        "See you later",
         "Goodbye",
-        "Catch you later"
+        "See you later",
+        "Bye",
+        "Catch you later",
+        "Talk to you soon",
+        "Have a nice day",
+        "Take care",
+        "See you next time"
       ],
       "responses": [
-        "Goodbye! Have a great day!",
-        "See you later! Take care!",
-        "Goodbye! It was nice talking to you."
+        "Goodbye! Wishing you all the best with your career planning!",
+        "See you later! Don't hesitate to return if you need more guidance.",
+        "Bye! Feel free to reach out if you have more questions.",
+        "Catch you later! Best of luck with your career choices!",
+        "Talk to you soon! Have a wonderful day ahead!",
+        "Take care! I'm here whenever you need career advice."
       ]
     },
     {
-      "tag": "thanks",
+      "tag": "bot_name",
       "patterns": [
-        "Thanks",
-        "Thank you",
-        "I appreciate it",
-        "That helps a lot"
+        "What's your name?",
+        "Do you have a name?",
+        "Who are you?",
+        "What should I call you?",
+        "Tell me your name",
+        "Who am I talking to?"
       ],
       "responses": [
-        "You're welcome!",
-        "Glad I could help!",
-        "No problem, happy to assist!"
+        "I’m your career counseling assistant, here to help with your career questions!",
+        "You can call me your Career Guidance Bot.",
+        "I’m here to provide career advice and support.",
+        "I’m your virtual assistant for career counseling.",
+        "I’m here to help you explore and plan your career path!"
       ]
     },
     {
@@ -49,54 +67,588 @@
         "Can you help me choose a career?",
         "I need career guidance",
         "What career is best for me?",
-        "Suggest me a career path"
+        "Suggest me a career path",
+        "How do I decide on a career?",
+        "I’m unsure about my career options",
+        "Help me with career planning",
+        "What are some good career choices?"
       ],
       "responses": [
-        "Sure, I can help with that. Tell me about your interests and skills.",
-        "Let's explore some career options based on your strengths and preferences.",
-        "Career choice depends on various factors. What subjects do you enjoy the most?"
+        "I can help with that! Tell me about your interests and strengths.",
+        "Let’s explore some career options based on your skills and preferences.",
+        "Career choice depends on various factors. What subjects or activities do you enjoy?",
+        "We can use some tools and assessments to find a career path that suits you.",
+        "To decide on a career, consider your skills, interests, and market demand."
       ]
     },
     {
-      "tag": "college_advice",
+      "tag": "mentorship_programs",
       "patterns": [
-        "Which college should I attend?",
-        "Can you suggest some good colleges?",
-        "What are the top colleges for engineering?",
-        "Which is the best college for arts?"
+        "What is a mentorship program?",
+        "How can I find a career mentor?",
+        "Are there mentorship programs available?",
+        "Can you connect me with a mentor?",
+        "How do mentorship programs work?",
+        "What are the benefits of having a mentor?",
+        "How can I become a mentee?"
       ],
       "responses": [
-        "The best college depends on your chosen field and location. Would you like some specific recommendations?",
-        "I can suggest colleges based on your preferred course. Can you specify your field of interest?",
-        "Many great colleges are available; let's narrow down based on your preferences and scores."
+        "Mentorship programs connect you with experienced professionals in your field of interest.",
+        "You can find a mentor through school programs, professional networks, or online platforms.",
+        "Mentors provide guidance, advice, and support to help you achieve your career goals.",
+        "To join a mentorship program, check with your school or professional organizations.",
+        "Mentorship helps you gain insights, advice, and connections in your chosen career path."
       ]
     },
     {
-      "tag": "exam_tips",
+      "tag": "interactive_tools",
       "patterns": [
-        "How to prepare for exams?",
-        "Any tips for scoring well in exams?",
-        "What should I focus on while studying?",
-        "How to manage time during exams?"
+        "What are interactive career tools?",
+        "How do virtual simulations help with career exploration?",
+        "Can I use apps to explore careers?",
+        "What are career exploration tools?",
+        "How can I use digital tools for career guidance?",
+        "Tell me about career exploration apps",
+        "How can interactive content assist in career planning?"
       ],
       "responses": [
-        "Effective study involves time management, regular practice, and revision. Focus on key concepts and previous papers.",
-        "Stay organized, create a study plan, and take regular breaks to avoid burnout.",
-        "Practice past papers, prioritize weak areas, and maintain a healthy study routine."
+        "Interactive career tools include apps and simulations that help you explore various careers.",
+        "Virtual simulations provide a hands-on experience of different job roles.",
+        "Career exploration tools help you understand different careers through engaging content.",
+        "You can use digital tools to view career options, educational requirements, and job trends.",
+        "Interactive content allows you to explore and understand careers in a dynamic way."
       ]
     },
     {
-      "tag": "motivation",
+      "tag": "resources_and_tools",
       "patterns": [
-        "I feel demotivated",
-        "I am not able to concentrate",
-        "How to stay motivated?",
-        "I am feeling stressed about my future"
+        "What resources are available for career counseling?",
+        "Can you provide career guidance resources?",
+        "Where can I find career information?",
+        "What tools are used for career planning?",
+        "Are there online resources for career exploration?",
+        "Tell me about career guidance tools",
+        "What are the best resources for career advice?"
       ],
       "responses": [
-        "It's okay to feel this way. Focus on your goals, take breaks, and keep a positive mindset.",
-        "Stay calm and take things one step at a time. Set small, achievable goals to stay motivated.",
-        "You are doing great! Remember, every small effort counts toward your big dreams."
+        "We offer various resources including online portals, counseling sessions, and workshops.",
+        "Online resources include career websites, educational portals, and guidance apps.",
+        "Career guidance tools include assessment tests, career exploration apps, and informational websites.",
+        "Visit our comprehensive career resource portals for extensive information and tools.",
+        "Resources for career counseling are available through school programs and online platforms."
+      ]
+    },
+    {
+      "tag": "nep_2020",
+      "patterns": [
+        "What is NEP 2020?",
+        "How does NEP 2020 impact career counseling?",
+        "Can you explain NEP 2020's role in education?",
+        "What does NEP 2020 say about career guidance?",
+        "How does NEP 2020 support holistic education?",
+        "What are the key features of NEP 2020?",
+        "How is NEP 2020 related to career planning?"
+      ],
+      "responses": [
+        "NEP 2020 is the National Education Policy aimed at holistic and inclusive education.",
+        "NEP 2020 emphasizes career counseling and guidance as part of holistic education.",
+        "The policy supports integrating career guidance into the curriculum to help students make informed choices.",
+        "NEP 2020 aims to provide students with the skills and knowledge needed for their future careers.",
+        "The policy promotes innovative and practical approaches to career counseling in schools."
+      ]
+    },
+    {
+      "tag": "ai_in_career_guidance",
+      "patterns": [
+        "How can AI assist in career counseling?",
+        "What are AI-powered career guidance platforms?",
+        "Can AI provide personalized career advice?",
+        "How does AI improve career planning?",
+        "What role does AI play in career counseling?",
+        "How can AI tools help with career choices?",
+        "Tell me about AI in career guidance"
+      ],
+      "responses": [
+        "AI-powered platforms provide personalized career advice based on your skills and interests.",
+        "AI can analyze market trends and suggest career paths that align with your strengths.",
+        "AI tools offer interactive and engaging ways to explore career options and educational requirements.",
+        "Using AI in career counseling helps tailor advice to individual needs and preferences.",
+        "AI improves career planning by offering data-driven insights and personalized recommendations."
+      ]
+    },
+    {
+      "tag": "workshops_and_sessions",
+      "patterns": [
+        "What are career counseling workshops?",
+        "How do career guidance sessions work?",
+        "Can I attend career workshops at school?",
+        "Tell me about career counseling sessions",
+        "What happens in a career guidance workshop?",
+        "How can workshops help with career planning?",
+        "Are there any upcoming career sessions?"
+      ],
+      "responses": [
+        "Career counseling workshops provide interactive sessions on various career topics and skills.",
+        "Guidance sessions include personalized advice and exploration of career options.",
+        "Schools often organize workshops to help students understand different career paths and requirements.",
+        "Workshops cover career planning, job market trends, and practical skills for career development.",
+        "Career guidance sessions are designed to help you make informed decisions about your future."
+      ]
+    },
+    {
+      "tag": "personalized_advice",
+      "patterns": [
+        "Can I get personalized career advice?",
+        "How do I receive tailored career counseling?",
+        "What is personalized career guidance?",
+        "Can you provide advice based on my interests?",
+        "How does personalized advice work?",
+        "I need advice specific to my skills",
+        "How can I get customized career recommendations?"
+      ],
+      "responses": [
+        "Personalized career advice is based on your interests, skills, and market trends.",
+        "Tailored counseling involves assessing your unique profile and providing specific career recommendations.",
+        "We offer customized guidance through assessments and one-on-one sessions.",
+        "Personalized advice helps align your career path with your strengths and aspirations.",
+        "Receive tailored recommendations by sharing your interests and goals with our counselors."
+      ]
+    },
+    {
+      "tag": "student_engagement",
+      "patterns": [
+        "How can students get involved in career programs?",
+        "What activities are included in career guidance programs?",
+        "How can I engage with career exploration tools?",
+        "Are there interactive activities for students?",
+        "How do career programs engage students?",
+        "Can students participate in career planning activities?",
+        "What are some engaging career guidance activities?"
+      ],
+      "responses": [
+        "Students can get involved through workshops, mentorship programs, and interactive tools.",
+        "Career programs include activities like simulations, assessments, and interactive sessions.",
+        "Engage with career exploration tools by using apps, virtual simulations, and informational resources.",
+        "Interactive activities include career quizzes, virtual job shadowing, and hands-on workshops.",
+        "Career programs aim to actively involve students through various engaging and informative activities."
+      ]
+    },
+    {
+      "tag": "career_trends",
+      "patterns": [
+        "What are the current job market trends?",
+        "Can you tell me about emerging careers?",
+        "What careers are in demand right now?",
+        "How do I stay updated on career trends?",
+        "What are some future job trends?",
+        "Which industries are growing the fastest?",
+        "Tell me about the latest career opportunities"
+      ],
+      "responses": [
+        "Current job market trends include growing demand for technology, healthcare, and renewable energy careers.",
+        "Emerging careers involve fields like AI, cybersecurity, and sustainable energy.",
+        "In-demand careers vary by industry, with technology and healthcare seeing significant growth.",
+        "Stay updated on trends by following industry reports, job market analyses, and career resources.",
+        "Future job trends include increased automation, remote work, and green technologies."
+      ]
+    },
+    {
+      "tag": "parent_involvement",
+      "patterns": [
+        "How can parents support career counseling?",
+        "What role do parents play in career guidance?",
+        "Can parents attend career workshops?",
+        "How can parents help with career planning?",
+        "What should parents know about career guidance programs?",
+        "Are there resources for parents to assist with career counseling?",
+        "How can parents be involved in career planning?"
+      ],
+      "responses": [
+        "Parents can support career counseling by participating in workshops and staying informed about career options.",
+        "The role of parents includes providing encouragement and helping students explore various career paths.",
+        "Parents can attend workshops to understand career guidance and support their child's choices.",
+        "Supporting career planning involves discussing options, providing resources, and encouraging exploration.",
+        "Resources for parents include informational guides, workshops, and counseling sessions."
+      ]
+    },
+    {
+      "tag": "success_stories",
+      "patterns": [
+        "Can you share success stories of career guidance?",
+        "Tell me about successful career counseling examples",
+        "Are there any notable success stories?",
+        "What are some examples of effective career guidance?",
+        "Can you provide examples of career counseling success?",
+        "Share some success stories from career programs",
+        "How has career counseling helped others?"
+      ],
+      "responses": [
+        "Success stories include students finding their ideal careers through personalized counseling and mentorship.",
+        "Effective career guidance has led to students pursuing careers aligned with their passions and skills.",
+        "Notable success stories involve students achieving career goals through targeted advice and support.",
+        "Examples of success include improved job satisfaction and career alignment through guidance programs.",
+        "Career counseling has helped many students make informed choices and succeed in their chosen fields."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I provide feedback on the career counseling program?",
+        "Can I submit feedback about the guidance I received?",
+        "Where do I give feedback about career services?",
+        "How is feedback collected for career counseling?",
+        "Can students give feedback on career workshops?",
+        "How can I share my experience with the career program?",
+        "What is the process for submitting feedback?"
+      ],
+      "responses": [
+        "Feedback can be provided through surveys, feedback forms, or directly to your career counselor.",
+        "You can submit feedback via online forms or through your school's career services office.",
+        "Feedback is collected to improve programs and ensure they meet students' needs.",
+        "Students can share their experiences through feedback forms and workshops.",
+        "To give feedback, use the provided forms or contact the career services team directly."
+      ]
+    },
+    {
+      "tag": "curriculum_integration",
+      "patterns": [
+        "How is career guidance integrated into the curriculum?",
+        "What role does career counseling play in school subjects?",
+        "Can career guidance be part of regular classes?",
+        "How is career planning included in school programs?",
+        "What subjects include career counseling?",
+        "How does the curriculum support career exploration?",
+        "Are there career guidance components in school lessons?"
+      ],
+      "responses": [
+        "Career guidance can be integrated into various subjects to provide relevant career information.",
+        "Schools can include career planning in lessons on personal development and job readiness.",
+        "Curriculum integration involves incorporating career exploration into regular class activities.",
+        "Career counseling is included through dedicated lessons, workshops, and guidance sessions.",
+        "The curriculum supports career exploration by linking academic subjects to career options."
+      ]
+    },
+    {
+      "tag": "training_counselors",
+      "patterns": [
+        "How are career counselors trained?",
+        "What training do career counselors receive?",
+        "Can you tell me about counselor training programs?",
+        "How are counselors prepared for career guidance?",
+        "What qualifications are needed for career counselors?",
+        "Are there training programs for career advisors?",
+        "How do career counselors stay updated?"
+      ],
+      "responses": [
+        "Career counselors receive training in guidance techniques, career assessments, and industry knowledge.",
+        "Training programs include workshops, certifications, and continuous professional development.",
+        "Counselors are prepared through formal education, practical experience, and ongoing training.",
+        "Qualifications for career counselors include relevant degrees, certifications, and practical experience.",
+        "Counselors stay updated through professional development courses and industry updates."
+      ]
+    },
+    {
+      "tag": "technology_in_career_guidance",
+      "patterns": [
+        "How does technology enhance career counseling?",
+        "What technological tools are used in career guidance?",
+        "Can technology help with career planning?",
+        "How is technology integrated into career programs?",
+        "What are some tech tools for career exploration?",
+        "How does technology improve career advice?",
+        "Tell me about technology in career counseling"
+      ],
+      "responses": [
+        "Technology enhances career counseling through online tools, apps, and virtual simulations.",
+        "Tech tools include career assessment apps, virtual career fairs, and interactive exploration platforms.",
+        "Technology helps by providing personalized recommendations and engaging content for career planning.",
+        "Integrating tech into career programs offers innovative ways to explore and understand career options.",
+        "Technology improves career advice by offering data-driven insights and interactive resources."
+      ]
+    },
+    {
+      "tag": "career_exploration",
+      "patterns": [
+        "How can I explore different careers?",
+        "What tools can help with career exploration?",
+        "Can you suggest ways to research careers?",
+        "How do I learn about various job options?",
+        "What are some methods for exploring careers?",
+        "How can I find out about different professions?",
+        "Tell me about career exploration strategies"
+      ],
+      "responses": [
+        "You can explore careers through research, informational interviews, and online tools.",
+        "Use career assessment tests, virtual simulations, and informational resources to explore options.",
+        "Research careers by reading about job roles, talking to professionals, and using career exploration apps.",
+        "Methods for career exploration include job shadowing, internships, and career fairs.",
+        "Find out about professions through educational resources, career guidance programs, and expert advice."
+      ]
+    },
+    {
+      "tag": "student_interests",
+      "patterns": [
+        "How do my interests affect my career choices?",
+        "Can you help me align my interests with a career?",
+        "What role do interests play in career planning?",
+        "How should I consider my interests in career decisions?",
+        "Can my hobbies influence my career path?",
+        "How do I match my interests to a job?",
+        "Tell me about the importance of interests in career planning"
+      ],
+      "responses": [
+        "Your interests play a crucial role in choosing a career that you will enjoy and excel in.",
+        "Aligning your interests with a career can lead to greater job satisfaction and success.",
+        "Consider your hobbies and passions when making career decisions to find a fulfilling path.",
+        "Matching your interests to a job helps ensure that you are engaged and motivated in your work.",
+        "Interests influence career planning by guiding you towards roles that align with your passions."
+      ]
+    },
+    {
+      "tag": "career_goals",
+      "patterns": [
+        "How do I set career goals?",
+        "Can you help me define my career objectives?",
+        "What are effective ways to set career goals?",
+        "How should I plan my career goals?",
+        "What are some examples of career goals?",
+        "How do I achieve my career aspirations?",
+        "Tell me about setting and achieving career goals"
+      ],
+      "responses": [
+        "Setting career goals involves identifying your long-term objectives and creating a plan to achieve them.",
+        "Define your career goals by assessing your interests, skills, and desired outcomes.",
+        "Effective ways to set career goals include creating SMART goals and regularly reviewing your progress.",
+        "Plan your career goals by setting clear, actionable steps and seeking guidance from mentors.",
+        "Examples of career goals include securing a specific job role, achieving a promotion, or gaining new skills."
+      ]
+    },
+    {
+      "tag": "educational_requirements",
+      "patterns": [
+        "What education is required for different careers?",
+        "Can you tell me about educational paths for specific jobs?",
+        "How do I know what qualifications I need for a career?",
+        "What are the educational requirements for my desired job?",
+        "How do educational requirements vary by profession?",
+        "What degrees or certifications are needed for various careers?",
+        "Tell me about the education needed for different professions"
+      ],
+      "responses": [
+        "Educational requirements vary by career, with some jobs needing specific degrees or certifications.",
+        "Research the educational paths for careers by looking at job descriptions and industry standards.",
+        "Qualifications for careers can include degrees, certifications, and specialized training.",
+        "Determine the education needed for your desired job by exploring career profiles and speaking with professionals.",
+        "Educational requirements differ by profession, with some requiring formal education and others emphasizing experience."
+      ]
+    },
+    {
+      "tag": "job_market",
+      "patterns": [
+        "What is the current state of the job market?",
+        "Can you provide information on job market trends?",
+        "How do job market conditions affect career choices?",
+        "What are the job market prospects for various careers?",
+        "How can I stay informed about job market changes?",
+        "What are the latest trends in the job market?",
+        "Tell me about job market opportunities"
+      ],
+      "responses": [
+        "The job market varies by industry, with some sectors experiencing growth and others facing challenges.",
+        "Stay informed about job market trends through industry reports, job boards, and professional networks.",
+        "Job market conditions can influence career choices by highlighting in-demand roles and emerging fields.",
+        "Job market prospects for careers can be assessed through market research and employment forecasts.",
+        "Keeping up with job market changes helps you make informed decisions about your career path."
+      ]
+    },
+    {
+      "tag": "soft_skills",
+      "patterns": [
+        "What soft skills are important for careers?",
+        "Can you tell me about essential soft skills for jobs?",
+        "How do soft skills impact career success?",
+        "What are some examples of soft skills needed in the workplace?",
+        "How can I develop my soft skills?",
+        "Why are soft skills important for career growth?",
+        "Tell me about soft skills and their role in career development"
+      ],
+      "responses": [
+        "Soft skills such as communication, teamwork, and problem-solving are crucial for career success.",
+        "Essential soft skills include leadership, adaptability, and time management.",
+        "Soft skills impact career success by enhancing your ability to work effectively with others and handle challenges.",
+        "Examples of soft skills needed in the workplace are emotional intelligence, negotiation, and critical thinking.",
+        "Develop soft skills through practice, feedback, and training opportunities."
+      ]
+    },
+    {
+      "tag": "student_feedback",
+      "patterns": [
+        "How can I provide feedback on career counseling sessions?",
+        "Can I give feedback on the career guidance I received?",
+        "Where do I submit feedback about career programs?",
+        "How is student feedback used in career counseling?",
+        "Can students review the career counseling process?",
+        "How can I share my opinion about career services?",
+        "Tell me about providing feedback on career programs"
+      ],
+      "responses": [
+        "Provide feedback through surveys, feedback forms, or directly to your career counselor.",
+        "Feedback is used to improve programs and ensure they meet students' needs.",
+        "Submit feedback via online forms or through your school's career services office.",
+        "Student feedback helps refine the career counseling process and enhance program effectiveness.",
+        "Share your opinion by using provided feedback channels or contacting career services."
+      ]
+    },
+    {
+      "tag": "career_satisfaction",
+      "patterns": [
+        "How can I ensure career satisfaction?",
+        "What factors contribute to job satisfaction?",
+        "Can you provide tips for a fulfilling career?",
+        "How do I find satisfaction in my career?",
+        "What are ways to achieve job satisfaction?",
+        "How can I improve my career satisfaction?",
+        "Tell me about achieving satisfaction in a career"
+      ],
+      "responses": [
+        "Ensure career satisfaction by pursuing roles that align with your interests and values.",
+        "Job satisfaction comes from a combination of fulfilling work, work-life balance, and personal growth.",
+        "Tips for a fulfilling career include setting clear goals, seeking feedback, and pursuing continuous learning.",
+        "Finding satisfaction in your career involves aligning your job with your passions and strengths.",
+        "Improve career satisfaction by seeking opportunities for growth and maintaining a healthy work-life balance."
+      ]
+    },
+    {
+      "tag": "job_shadowing",
+      "patterns": [
+        "What is job shadowing?",
+        "How does job shadowing help with career exploration?",
+        "Can I participate in job shadowing programs?",
+        "Tell me about the benefits of job shadowing",
+        "How can I find job shadowing opportunities?",
+        "What should I expect from a job shadowing experience?",
+        "How can job shadowing assist in career planning?"
+      ],
+      "responses": [
+        "Job shadowing involves observing professionals in their work environment to gain insights into their roles.",
+        "It helps with career exploration by providing a real-world view of different job functions and industries.",
+        "You can participate in job shadowing through school programs, professional networks, or internship opportunities.",
+        "Benefits of job shadowing include gaining firsthand experience and understanding job responsibilities.",
+        "Find job shadowing opportunities through career services, networking events, and professional organizations."
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "What are internships?",
+        "How can internships benefit my career?",
+        "Can you help me find internship opportunities?",
+        "What should I look for in an internship?",
+        "How do internships contribute to career development?",
+        "Are there any tips for securing internships?",
+        "Tell me about the advantages of internships"
+      ],
+      "responses": [
+        "Internships provide practical work experience and exposure to different career fields.",
+        "They benefit your career by offering hands-on experience, networking opportunities, and skill development.",
+        "Find internships through school programs, job boards, and professional networks.",
+        "Look for internships that align with your career interests and offer meaningful learning experiences.",
+        "Internships contribute to career development by building skills and connections in your desired field."
+      ]
+    },
+    {
+      "tag": "career_assessments",
+      "patterns": [
+        "What are career assessments?",
+        "How do career assessments help with career planning?",
+        "Can you recommend career assessment tools?",
+        "How do I take a career assessment?",
+        "What are the benefits of career assessments?",
+        "Tell me about different types of career assessments",
+        "How can career assessments guide my career choices?"
+      ],
+      "responses": [
+        "Career assessments evaluate your skills, interests, and preferences to help identify suitable career paths.",
+        "They help with career planning by providing insights into your strengths and potential job matches.",
+        "Recommended tools include personality tests, skills assessments, and interest inventories.",
+        "Take a career assessment through online platforms, career centers, or counseling services.",
+        "Benefits include gaining self-awareness, understanding career options, and making informed decisions."
+      ]
+    },
+    {
+      "tag": "job_search_tips",
+      "patterns": [
+        "What are some tips for job searching?",
+        "Can you help me with job search strategies?",
+        "How do I find job openings?",
+        "What are effective job search techniques?",
+        "How can I improve my job search?",
+        "Tell me about job search best practices",
+        "What should I know about job searching?"
+      ],
+      "responses": [
+        "Effective job search tips include tailoring your resume, networking, and using job boards.",
+        "Improve your job search by setting clear goals, researching companies, and applying for relevant positions.",
+        "Find job openings through online job boards, company websites, and professional networks.",
+        "Best practices include preparing a strong resume, practicing for interviews, and following up on applications.",
+        "Job searching involves using multiple strategies to identify and apply for job opportunities."
+      ]
+    },
+    {
+      "tag": "resume_building",
+      "patterns": [
+        "How do I build a strong resume?",
+        "Can you provide resume writing tips?",
+        "What should be included in a resume?",
+        "How can I make my resume stand out?",
+        "What are common resume mistakes to avoid?",
+        "Tell me about resume building strategies",
+        "How can I improve my resume?"
+      ],
+      "responses": [
+        "Build a strong resume by highlighting your skills, experiences, and accomplishments.",
+        "Include sections such as contact information, summary, experience, education, and skills.",
+        "Make your resume stand out by using clear formatting, tailoring it to job descriptions, and showcasing achievements.",
+        "Common mistakes to avoid include typos, using generic descriptions, and lacking quantifiable results.",
+        "Resume building strategies include customizing your resume for each application and seeking feedback."
+      ]
+    },
+    {
+      "tag": "career_planning",
+      "patterns": [
+        "How do I create a career plan?",
+        "Can you help me with career planning?",
+        "What should be included in a career plan?",
+        "How can I set career milestones?",
+        "Tell me about effective career planning",
+        "How do I achieve my career goals?",
+        "What are the steps in career planning?"
+      ],
+      "responses": [
+        "Create a career plan by setting clear goals, identifying steps to achieve them, and regularly reviewing progress.",
+        "Include elements such as career objectives, action steps, timelines, and required resources in your plan.",
+        "Set career milestones to track progress and stay motivated in reaching your goals.",
+        "Effective career planning involves assessing your skills, researching career options, and creating actionable steps.",
+        "Achieve your career goals by following your plan, seeking guidance, and adapting to changes."
+      ]
+    },
+    {
+      "tag": "education_and_training",
+      "patterns": [
+        "What education and training are needed for specific careers?",
+        "Can you provide information on training programs?",
+        "How do I find educational programs for my career?",
+        "What are the best training options for my field?",
+        "How can I choose the right educational path?",
+        "Tell me about education and training for careers",
+        "What qualifications do I need for different professions?"
+      ],
+      "responses": [
+        "Education and training requirements vary by career, including degrees, certifications, and specialized programs.",
+        "Find training programs through educational institutions, online courses, and industry organizations.",
+        "Choose the right educational path by researching career requirements and aligning programs with your goals.",
+        "Best training options depend on your field and can include formal education, workshops, and online courses.",
+        "Qualifications needed vary by profession, with some requiring specific degrees or certifications."
       ]
     }
   ]
